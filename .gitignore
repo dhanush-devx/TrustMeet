@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Environment files
+frontend/.env.local
+frontend/.env*.local
+
+# Cairo / Scarb build outputs
+contracts/target/
+
+# IDE
+.vscode/
+.idea/
